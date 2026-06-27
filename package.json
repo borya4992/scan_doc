@@ -12,15 +12,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "exceljs": "^4.4.0",
     "idb": "^8.0.3",
     "next": "^16.2.9",
     "pdfjs-dist": "^5.4.624",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "tesseract.js": "^6.0.1"
+    "tesseract.js": "^6.0.1",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^25.0.3",
     "@types/react": "^19.2.7",

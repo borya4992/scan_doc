@@ -1,0 +1,34 @@
+{
+  "name": "scan_doc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "start:bg": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/start-background.ps1",
+    "stop:bg": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/stop-background.ps1",
+    "deploy": "vercel --prod",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "idb": "^8.0.3",
+    "next": "^16.2.9",
+    "pdfjs-dist": "^5.4.624",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.2.9",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3"
+  }
+}

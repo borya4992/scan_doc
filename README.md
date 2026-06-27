@@ -114,7 +114,7 @@ vercel
 - Next.js 16, React 19, TypeScript
 - Tesseract.js (OCR rus+eng)
 - pdf.js (PDF)
-- ExcelJS (экспорт)
+- SheetJS / xlsx (экспорт)
 - IndexedDB (idb)
 
 ## Лицензия
